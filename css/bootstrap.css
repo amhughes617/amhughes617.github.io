@@ -13,6 +13,11 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
 
+.skill-container {
+  text-align: center;
+  color: #2c3e50;
+}
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
