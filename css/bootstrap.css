@@ -12,7 +12,15 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
-
+.about {
+  width: 200px;
+  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  .about {
+    width: 33%;
+  }
+}
 .skill-container {
   text-align: center;
   color: #2c3e50;
