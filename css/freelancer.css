@@ -4,6 +4,13 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+ .project-pic {
+   border-style: solid;
+   border-radius: 10%;
+   border-color: #18bc9c;
+   border-width: medium;
+ }
+
 body {
     overflow-x: hidden;
 }
@@ -228,6 +235,8 @@ section.success a.active {
 
 #portfolio .portfolio-item .portfolio-link .caption:hover {
     opacity: 1;
+    border-radius: 10%;
+    /*added this to round out link on hover*/
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
